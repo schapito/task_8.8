@@ -1,7 +1,3 @@
-// Первая этап - Игра УГАДАЙКА, кнопка НАЧАТЬ ИГРУ
-// Клик по кнопке НАЧАТЬ ИГРУ
-// Диапазон значений 
-//Выберите минимальное и максимальное значение числа для игры (от -999 до 999), кнопка ПРОДОЛЖИТЬ
 document.getElementById('btnTobegin').addEventListener('click', function () {  
     document.querySelector('.title-page').classList.add('hidden');              
     document.querySelector('.value-range').classList.remove('hidden');          
@@ -11,8 +7,6 @@ document.getElementById('btnTobegin').addEventListener('click', function () {
     document.querySelector('#btnProceed').classList.remove('hidden');           
 })
 
-// Клик по кнопке ПРОДОЛЖИТЬ
-// Условия, Загадайте любое целое число от 0 до 100, а я его угадаю, кнопка ИГРАТЬ
 document.getElementById('btnProceed').addEventListener('click', function () {  
     document.querySelector('.value-range').classList.add('hidden');             
     document.querySelector('.terms').classList.remove('hidden');                
