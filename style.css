@@ -657,7 +657,7 @@
   }
 
   .billy {
-    background-image: url(/images/billy.png);
+    background-image: url(images/billy.png);
     height: 234px;
     width: 100px;
     background-repeat: no-repeat;
